@@ -1,138 +1,130 @@
+/* GENERAL */
 body {
-    border: 2px solid black;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: rgb(213, 207, 207);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(213, 207, 207);
+  font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-    font-family: 'Rubik Dirt', cursive;
-    text-align: center;
-    color: rgb(151, 173, 63);
-    border-bottom: 2px solid rgb(101, 82, 135);
-}
-
-img {
-    border: 3px solid black;
-    border-radius: 10px;
-    width: 200px;
-}
-
-header {
-    padding: 40px;
-}
-
-.flex {
-    display: flex;
-}
-
-.job {
-    border-top: 2px solid rgb(101, 82, 135);
-    margin: 20px;
-    text-align: left;
-    border-bottom: 2px solid rgb(101, 82, 135);
-    border-radius: 40px;
-
-}
-
-.job2 {
-    color: grey;
-    padding: 6px
-}
-
-.job3 {
-    border-bottom: 2px solid rgb(101, 82, 135);
-    border-top: 2px solid rgb(101, 82, 135);
-    margin: 30px;
-    border-radius: 50px;
-}
-
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.intro {
-    display: flex;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.info {
-    text-align: right;
-    line-height: 25px;
-    padding-right: 15px;
-}
-
-.info2 {
-    padding-right: 5px;
-}
-
-.info3 {
-    padding-right: 40px;
-}
-
-a {
-    color: rgb(96, 169, 194);
-}
-
-a:hover {
-    color: rgb(50, 172, 63);
-}
-
-i {
-    padding: 10px;
-}
-
-.btn {
-    background-color: rgb(216, 162, 53);
-    border-radius: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    border: 3px solid black;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-ul {
-    margin-left: 40px;
-    width: 200px;
-    line-height: 30px;
-    border-left: 3px solid rgb(101, 82, 135);
-    border-right: 3px solid rgb(101, 82, 135);
-    border-radius: 30px;
-}
-
-.knowledge {
-    text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.len {
-    text-align: center;
-    line-height: 30px;
-}
-
-.anj {
-    text-decoration: underline;
-}
-
+h1,
 h2,
 h3,
 h4 {
-    text-align: center;
-    color: rgb(151, 173, 63);
+  text-align: center;
+  color: rgb(151, 173, 63);
+}
+
+/*HEADER*/
+header {
+  padding: 40px;
+}
+
+header img {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 200px;
+}
+header hr {
+  border: 1px solid rgb(101, 82, 135);
+}
+
+/*MAIN*/
+
+.flex {
+  display: flex;
+}
+
+.job {
+  border-top: 2px solid rgb(101, 82, 135);
+  margin: 20px;
+  text-align: left;
+  border-bottom: 2px solid rgb(101, 82, 135);
+  border-radius: 40px;
+}
+
+.job2 {
+  color: grey;
+  padding: 6px;
+}
+
+.job3 {
+  border-bottom: 2px solid rgb(101, 82, 135);
+  border-top: 2px solid rgb(101, 82, 135);
+  margin: 30px;
+  border-radius: 50px;
+}
+
+.intro {
+  display: flex;
+  text-align: center;
+}
+
+.info {
+  text-align: right;
+  line-height: 25px;
+  padding-right: 15px;
+}
+
+.info2 {
+  padding-right: 5px;
+}
+
+.info3 {
+  padding-right: 40px;
+}
+
+a {
+  color: rgb(96, 169, 194);
+}
+
+a:hover {
+  color: rgb(50, 172, 63);
+}
+
+i {
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgb(216, 162, 53);
+  border-radius: 50px;
+  font-size: 18px;
+  border: 3px solid black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 40px;
+  width: 200px;
+  line-height: 30px;
+  border-left: 3px solid rgb(101, 82, 135);
+  border-right: 3px solid rgb(101, 82, 135);
+  border-radius: 30px;
+}
+
+.knowledge {
+  text-decoration: underline;
+}
+
+.len {
+  text-align: center;
+  line-height: 30px;
+}
+
+.anj {
+  text-decoration: underline;
 }
 
 .hobby {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .iconB {
-    text-align: center;
-    font-size: 20px;
+  text-align: center;
+  font-size: 20px;
 }
