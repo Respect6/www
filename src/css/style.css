@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     color: rgb(151, 173, 63);
     border-bottom: 2px solid rgb(101, 82, 135);
+    text-shadow: 4px 3px 0px black;
 }
 
 img {
@@ -123,6 +124,7 @@ h3,
 h4 {
     text-align: center;
     color: rgb(151, 173, 63);
+    text-shadow: 1px 0px 1px black;
 }
 
 .hobby {
