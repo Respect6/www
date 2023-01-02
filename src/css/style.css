@@ -1,3 +1,7 @@
+html {
+    background-color: rgb(214, 167, 48);
+}
+
 body {
     border: 2px solid black;
     margin-left: 20%;
@@ -89,15 +93,39 @@ i {
 }
 
 .btn {
-    background-color: rgb(239, 225, 181);
+
+    position: relative;
+    background-color: rgb(248, 209, 110);
     border-radius: 8px;
+    border: 3px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    border: 3px solid black;
-    cursor: pointer;
+    text-align: center;
     text-decoration: none;
-    margin: 0px 10px 0px 10px;
+    cursor: pointer;
 
+
+}
+
+.btn1 {
+    color: rgb(151, 173, 63);
+    background-color: rgb(213, 207, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-top: 2px solid rgb(101, 82, 135);
+    border-bottom: 2px solid rgb(101, 82, 135);
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px black;
+    cursor: pointer;
+
+}
+
+
+
+dd {
+    margin-top: 8px;
 }
 
 ul {
@@ -155,7 +183,7 @@ footer {
 }
 
 .links {
-    text-align: center;
+    text-align: left;
 }
 
 .line {
